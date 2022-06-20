@@ -28,12 +28,6 @@ body {
 
 }
 
-.player {
-  display: none;
-}
-
-
-
 .wheel-rel {
   position: relative;
   top: 234px;
