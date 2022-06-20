@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="115.619 116.292 47.089 47.089" xmlns="http://www.w3.org/2000/svg">
+  <g style="" transform="matrix(1.24925, 0, 0, 1.24925, -96.671003, -67.623598)">
+    <title>left-wheel</title>
+    <ellipse fill=" rgb(255, 255, 255)" cx="188.781" cy="166.068" rx="18.847" ry="18.847" stroke-opacity="0" id="svg_27"/>
+    <ellipse cx="188.852" cy="165.999" rx="15.796" ry="15.796" stroke-opacity="0" id="svg_26"/>
+    <rect fill=" rgb(255, 255, 255)" x="171.389" y="164.186" width="6.19" height="5.217" stroke-opacity="0" id="svg_25"/>
+    <rect fill=" rgb(255, 255, 255)" x="199.952" y="162.947" width="6.19" height="5.217" stroke-opacity="0" id="svg_24"/>
+    <rect fill=" rgb(255, 255, 255)" x="254.238" y="196.002" width="6.19" height="5.217" transform="matrix(0.499983, -0.866035, 0.866035, 0.499983, -104.760002, 277.049011)" stroke-opacity="0" id="svg_23"/>
+    <rect fill=" rgb(255, 255, 255)" x="109.001" y="182.884" width="6.19" height="5.217" transform="matrix(0.499968, 0.866044, -0.866044, 0.499968, 285.877014, -35.845402)" stroke-opacity="0" id="svg_22"/>
+    <rect fill=" rgb(255, 255, 255)" x="123.573" y="206.746" width="6.19" height="5.217" transform="matrix(0.499928, 0.866067, -0.866067, 0.499928, 314.415985, -35.957001)" stroke-opacity="0" id="svg_21"/>
+    <rect fill=" rgb(255, 255, 255)" x="241.007" y="220.146" width="6.19" height="5.217" transform="matrix(0.50003, -0.866008, 0.866008, 0.50003, -133.072998, 278.485992)" stroke-opacity="0" id="svg_20"/>
+  </g>
+</svg>

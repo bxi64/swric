@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/swric-antenne.svg">
+    <title>RADIO SWRic</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand m-2" href="#">
+                <img src="/icons/swric-antenne.svg" width="64px"/>
+                <img src="/icons/Radio SWRic.svg" class="m-2" width="200px"/>
+            </a>
+                <div class="collapse navbar-collapse ">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item active">
+                            <a class="btn btn-custom-light m-2" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="btn btn-outline-danger m-2 font-weight-bold" href="/sites/live.html"><b>LIVE</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-custom-light m-2" href="/sites/wünsche.html">Wünsche</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-custom-light m-2" href="/sites/kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <audio controls autoplay loop class="d-none">
+            <source src="/audio/Radio SWRic Folge 17.mp3" type="audio/mp3">
+        </audio>
+        <div class="grid-container">
+            <div class="d-flex justify-content-center">
+                <img src="/icons/wheel.svg" class="wheel-rel left-wheel rotating" style="width: 65px;">
+                <img src="/icons/wheel.svg" class="wheel-rel right-wheel rotating" style="width: 65px;">
+            </div>
+            <div class="d-flex justify-content-center">
+                <img src="/icons/kassette.svg" style="width: 600px;">
+            </div>
+            <div class="d-flex justify-content-center m-4">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-rec btn-lg active">
+                        <input type="radio" name="options" id="option2" class="btn-check" autocomplete="off">
+                        <img src="/icons/rec.svg" class="mb-1" style="width: 20px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg">
+                        <input type="radio" name="options" id="option3" class="btn-check"  autocomplete="off">
+                        <img src="/icons/fast-rewind.svg" class="mb-1" style="width: 50px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg active">
+                        <input type="radio" name="options" id="option2" class="btn-check" autocomplete="off">
+                        <img src="/icons/play.svg" class="mb-1" style="width: 20px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg">
+                        <input type="radio" name="options" id="option3" class="btn-check"  autocomplete="off">
+                        <img src="/icons/stop.svg" class="mb-1" style="width: 20px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg">
+                        <input type="radio" name="options" id="option3" class="btn-check"  autocomplete="off">
+                        <img src="/icons/fast-forward.svg" class="mb-1" style="width: 50px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg">
+                        <input type="radio" name="options" id="option3" class="btn-check"  autocomplete="off">
+                        <img src="/icons/pause.svg" class="mb-1" style="width: 20px; height: 20px;">
+                    </label>
+                    <label class="btn btn-dark btn-lg ">
+                        <input type="radio" name="options" id="option2" class="btn-check" autocomplete="off">
+                        <img src="/icons/eject.svg" class="mb-1" style="width: 20px; height: 20px;">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item m-3">
+                <a class="btn btn-outline-custom-light" href="/index.html">Über uns</a>
+            </li>
+            <li class="nav-item m-3">
+                <a class="btn btn-outline-custom-light" href="/sites/impressum.html">Impressum</a>
+            </li>
+            <li class="nav-item m-3">
+                <a class="btn btn-outline-custom-light" href="/sites/kontakt.html">Kontakt</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
