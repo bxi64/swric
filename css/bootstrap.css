@@ -28,6 +28,10 @@ body {
 
 }
 
+.player {
+  display: none;
+}
+
 
 
 .wheel-rel {
